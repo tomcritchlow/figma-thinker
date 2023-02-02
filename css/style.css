@@ -1,0 +1,103 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFCF2;
+    color:var(--figma-black);
+  }
+  
+  .figma-dark-grey{
+    color:var(--figma-dark-grey);
+  }
+  
+  .figma-darker-grey{
+    color:var(--figma-darker-grey);
+  }
+  
+  .figma-green{
+    color:var(--figma-green)
+  }
+  
+  .bg-figma-green{
+    background-color:var(--figma-green);
+  }
+  
+  .bg-figma-light-brown{
+    background-color:var(--figma-light-brown);
+  }
+  
+  :root {
+    --figma-dark-grey:#74706F;
+    --figma-black:#1B1919;
+    --figma-darker-grey:#464341;
+    --figma-green:#1FAD58;
+    --figma-light-brown:#F2F0E8
+  }
+  
+  @media screen and (min-width: 60em){
+  
+  .figma-headline{
+    font-size:67px;
+    line-height:110%;
+  }
+  
+  .figma-subheadline{
+    font-size:31px;
+    line-height:120%;
+  }
+    
+  }
+  
+  .bendy-arrow{
+    left:-20px;
+    top:40px;
+  }
+  
+  p{
+    font-size:18px;
+    line-height: 150%;;
+  }
+  
+  .videobox{
+    width:150px;
+  }
+  
+  p a{
+    color:var(--figma-green);
+    text-decoration: none;
+  }
+  
+  .figma-box{
+    background:url(https://figma-thinker.tomcritchlow.repl.co/images/small-box.svg);
+    width:9px;
+    height:9px;
+    position:absolute;
+  }
+  
+  .figma-box-top-left{
+    top:-5px;
+    left:-5px;
+  }
+  
+  .figma-box-top-right{
+    top:-5px;
+    right:-5px;
+  }
+  
+  .figma-box-bottom-left{
+    bottom:-5px;
+    left:-5px;
+  }
+  
+  .figma-box-bottom-right{
+    right:-5px;
+    bottom:-5px;
+  }
+  
+  .figma-dot{
+    height: 15px;
+    width: 15px;
+    background-color: var(--figma-green);
+    border-radius: 50%;
+    display: inline-block;
+  }
