@@ -25,13 +25,18 @@ html, body {
   .bg-figma-light-brown{
     background-color:var(--figma-light-brown);
   }
+
+  bg-figma-beige{
+    background-color:var(--figma-beige);
+  }
   
   :root {
     --figma-dark-grey:#74706F;
     --figma-black:#1B1919;
     --figma-darker-grey:#464341;
     --figma-green:#1FAD58;
-    --figma-light-brown:#F2F0E8
+    --figma-light-brown:#F2F0E8;
+    --figma-beige:#F3EFE2;
   }
   
   @media screen and (min-width: 60em){
