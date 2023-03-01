@@ -26,7 +26,7 @@ html, body {
     background-color:var(--figma-light-brown);
   }
 
-  bg-figma-beige{
+  .bg-figma-beige{
     background-color:var(--figma-beige);
   }
   
