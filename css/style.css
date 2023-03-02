@@ -116,6 +116,12 @@ html, body {
 
   .underdiagram{
     z-index:-1;
-    left:-75%;
-    
+  }
+
+  .underright{
+    right:200px;
+  }
+
+  .underleft{
+    left:-200px;
   }
