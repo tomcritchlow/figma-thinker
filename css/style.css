@@ -112,5 +112,10 @@ html, body {
       width: 31px;
       background-color: black;
       border-radius: 50%;
-      
+  }
+
+  .underdiagram{
+    z-index:-1;
+    left:-75%;
+    
   }
