@@ -29,12 +29,17 @@ html, body {
   .bg-figma-beige{
     background-color:var(--figma-beige);
   }
+
+  .hover-figma-dark-green:hover{
+    background-color: var(--figma-dark-green);
+  }
   
   :root {
     --figma-dark-grey:#74706F;
     --figma-black:#1B1919;
     --figma-darker-grey:#464341;
     --figma-green:#1FAD58;
+    --figma-dark-green:#16994B;
     --figma-light-brown:#F2F0E8;
     --figma-beige:#F3EFE2;
   }
